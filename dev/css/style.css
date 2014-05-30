@@ -1,0 +1,529 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.header {
+	background-image: url(../images/header.jpg);
+	background-size:800px 236px;
+	background-repeat: none;
+
+	height: 236px;
+
+	width: 800px;
+
+	/*padding-top: 12px;*/
+
+	left: 50%;
+
+	margin-left: -400px;
+
+	position: relative;
+
+	top: 0px;
+
+}
+
+/*
+.header {
+
+	background-image: url(../images/header.png);
+
+
+	height: 125px;
+
+	margin-top: -8px;
+
+	margin-right: -8px;
+
+	margin-left: -20px;
+
+}
+*/
+
+.footer {
+
+	height: 20px;
+
+	width: 100%;
+
+	background-color:#B4B4B4;
+
+	padding-right: 45px;
+
+	padding-left: 45px;
+
+	margin-left: -45px;
+
+	margin-top: 25px;
+
+}
+.main-photo {
+
+	margin-left: -150px;
+
+	left: 20%;
+
+	position: relative;
+
+}
+
+.main-title {
+
+	font-family: "Californian FB";
+
+	color: white;
+
+	font-weight: bold;
+
+	font-variant: small-caps;
+
+	font-size: 72px;
+
+	margin-left: -100px;
+
+	left: 20%;
+
+	position: relative;
+
+	top: 25px;
+
+	width: 600px;
+
+}
+
+.subtitle {
+
+	font-family: "Californian FB";
+
+	color: white;
+
+	font-weight: bold;
+
+	font-variant: small-caps;
+
+	font-size: 30px;
+
+	margin-left: -100px;
+
+	left: 20%;
+
+	position: relative;
+
+	top: 5px;
+
+	width: 600px;
+
+}
+
+.subtitle2 {
+
+	font-family: "Californian FB";
+
+	/*color: red;*/
+
+	font-weight: bold;
+
+	font-variant: small-caps;
+
+	font-size: 24px;
+
+	/*margin-left: -300px;*/
+
+	/*left: 40%;*/
+
+	position: relative;
+
+	top: 5px;
+
+	width: 950px;
+
+}
+
+.subtitle3 {
+
+	font-family: "Californian FB";
+
+	/*color: red;*/
+
+	font-weight: bold;
+
+	font-variant: small-caps;
+
+	font-size: 36px;
+	
+	font-style:italic;
+
+	/*margin-left: -300px;*/
+
+	/*left: 40%;*/
+
+	position: relative;
+
+	top: 5px;
+
+	width: 950px;
+
+}
+
+.red {
+	color: #FF0000;
+}
+
+.blue {
+	color: #0000FF;
+}
+.buttons {
+
+	background-color: #DD0000;
+
+	height: 25px;
+
+	width: 800px;
+
+	padding-top: 10px;
+
+	left: 50%;
+
+	margin-left: -400px;
+
+	position: relative;
+
+	top: 235px;
+
+}
+
+
+
+.black-box {
+
+	height: 10px;
+
+	background-color: #000066;
+
+	top: 5px;
+
+	position: relative;
+
+}
+
+.tagline1{
+
+	margin-top: 10px;
+	
+	position: relative;
+	
+	text-align:center;
+	
+	color: #CC0000;
+	
+	font-family: "Californian FB";
+
+	font-size: 30px;
+
+	font-weight: bolder;
+	
+	font-variant: small-caps;
+
+}
+
+.tagline {
+	text-align:center;
+	
+	color: #CC0000;
+	
+	font-family: "Californian FB";
+
+	font-size: 18px;
+
+	font-weight: bolder;
+
+}
+
+body {
+
+	background-color: #B4B4B4;
+
+}
+
+.content {
+
+	background-color: white;
+
+	left: 50%;
+
+	width: 710px;
+
+	margin-left: -400px;
+
+	height: auto;
+
+	position: absolute;
+
+	padding-top: 65px;
+
+	padding-right: 45px;
+
+	padding-left: 45px;
+
+	/*margin-top: 125px;*/
+	top: 225px;
+
+}
+
+.content2 {
+
+	background-color: white;
+
+	left: 50%;
+
+	width: 710px;
+
+	margin-left: -400px;
+
+	height: auto;
+
+	position: absolute;
+
+	padding-top: 15px;
+
+	padding-right: 25px;
+
+	padding-left: 25px;
+
+	margin-top: 25px;
+
+}
+
+.buttons  a {
+	color:#E7BB8F
+}
+
+a.link-address:hover {
+
+	color: blue;
+	font-weight: bold;
+
+}
+
+a.link-address{
+	color: blue;
+
+	text-decoration: underline;
+
+	font-family: "Times New Roman";
+
+	font-size: 16px;
+
+	font-variant: normal;
+
+	text-align: start;
+
+	line-height: normal;
+
+	font-weight: normal;
+
+
+}
+
+a {
+
+	color: #8FBBE7;
+
+	text-decoration: none;
+
+	font-family: "Californian FB";
+
+	font-size: 20px;
+
+	font-variant: small-caps;
+
+	text-align: center;
+
+	line-height: 10px;
+
+	font-weight: bold;
+
+}
+
+a:hover {
+
+	color: white;
+
+}
+
+a.mail {
+
+	color: #8FBBE7;
+
+	text-decoration: none;
+
+	font-family: "Californian FB";
+
+	font-size: 17px;
+
+	font-variant: small-caps;
+
+	text-align: center;
+
+	line-height: 10px;
+
+	font-weight: bold;
+
+}
+
+a.mail:hover {
+
+	color: blue;
+
+}
+
+.link-a {
+
+	width: 160px;
+
+	height: 40px;
+
+	position: absolute;
+
+}
+
+.link-b {
+
+	width: 160px;
+
+	height: 40px;
+
+	position: absolute;
+
+	left: 20%;
+
+}
+
+.link-c {
+
+	width: 160px;
+
+	height: 40px;
+
+	position: absolute;
+
+	margin-left: -80px;
+
+	left: 50%;
+
+}
+
+.link-d {
+
+	width: 160px;
+
+	height: 40px;
+
+	position: absolute;
+
+	right: 20%;
+
+}
+
+.link-e {
+
+	width: 160px;
+
+	height: 40px;
+
+	position: absolute;
+
+	right: 0px;
+
+}
+
+.link-a1 {
+
+	width: 200px;
+
+	height: 40px;
+
+	position: absolute;
+
+}
+
+.link-b1 {
+
+	width: 200px;
+
+	height: 40px;
+
+	position: absolute;
+
+	left: 25%;
+
+}
+
+.link-c1 {
+
+	width: 200px;
+
+	height: 40px;
+
+	position: absolute;
+
+	margin-left: -80px;
+
+	right: 25%;
+
+}
+
+.link-d1 {
+
+	width: 200px;
+
+	height: 40px;
+
+	position: absolute;
+
+	right: 0px;
+
+}
+
+.text {
+
+	font-family: "Californian FB";
+
+	font-size: 17px;
+
+	color: black;
+
+	text-align:justify;
+
+}
+
+.subheader {
+
+	font-family: "Californian FB";
+
+	font-size: 21px;
+
+	font-weight: bolder;
+
+	color: black;
+
+}
+
+.snapshot {
+
+	float: left;
+
+	margin-right: 15px;
+
+}
+
+.snapshot2 {
+
+	margin-left: 15px;
+
+}
+
+th, td {
+	padding:3px;
+}
+

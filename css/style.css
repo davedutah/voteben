@@ -1,0 +1,677 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+.header {
+
+	/*background-image: url(../images/header.png);
+
+	background-repeat: repeat-x;
+
+	height: 125px;
+
+	margin-top: -8px;
+
+	margin-right: -8px;
+
+	margin-left: -20px;*/
+	background-image: url(../images/header.jpg);
+	background-size:800px 236px;
+	background-repeat: none;
+
+	height: 236px;
+
+	width: 800px;
+
+	/*padding-top: 12px;*/
+
+	left: 50%;
+
+	margin-left: -400px;
+
+	position: relative;
+
+	top: 0px;
+
+}
+
+.footer {
+
+	height: 20px;
+
+	width: 100%;
+
+	background-color:#B4B4B4;
+
+	padding-right: 45px;
+
+	padding-left: 45px;
+
+	margin-left: -45px;
+
+	margin-top: 25px;
+
+}
+
+body {
+	background-color: Gray;
+}
+
+.bodyText {
+	background-color: White;
+}
+
+.main-title {
+
+	font-family: "Californian FB";
+
+	color: white;
+
+	font-weight: bold;
+
+	font-variant: small-caps;
+
+	font-size: 72px;
+
+	margin-left: -255px;
+
+	left: 40%;
+
+	position: relative;
+
+	top: 25px;
+
+	width: 600px;
+
+}
+
+.subtitle {
+
+	font-family: "Californian FB";
+
+	color: white;
+
+	font-weight: bold;
+
+	font-variant: small-caps;
+
+	font-size: 30px;
+
+	margin-left: -253px;
+
+	left: 40%;
+
+	position: relative;
+
+	top: 5px;
+
+	width: 600px;
+
+}
+
+.subtitle2 {
+
+	font-family: "Californian FB";
+
+	/*color: red;*/
+
+	font-weight: bold;
+
+	font-variant: small-caps;
+
+	font-size: 24px;
+
+	/*margin-left: -300px;*/
+
+	/*left: 40%;*/
+
+	position: relative;
+
+	top: 5px;
+
+	width: 950px;
+
+}
+
+.subtitle3 {
+
+	font-family: "Californian FB";
+
+	/*color: red;*/
+
+	font-weight: bold;
+
+	font-variant: small-caps;
+
+	font-size: 36px;
+	
+	font-style:italic;
+
+	/*margin-left: -300px;*/
+
+	/*left: 40%;*/
+
+	position: relative;
+
+	top: 5px;
+
+	width: 950px;
+
+}
+
+.red {
+	color: #FF0000;
+}
+
+.blue {
+	color: #0000FF;
+}
+.buttons {
+
+	/*background-color: #000066;
+
+	height: 25px;
+
+	width: 800px;
+
+	padding-top: 12px;
+
+	left: 50%;
+
+	margin-left: -394px;
+
+	position: relative;
+
+	top: -4px;*/
+	background-color: #DD0000;
+
+	height: 25px;
+
+	width: 800px;
+
+	padding-top: 10px;
+
+	left: 50%;
+
+	margin-left: -400px;
+
+	position: relative;
+
+	top: 235px;
+
+
+}
+
+
+
+.black-box {
+
+	height: 10px;
+
+	background-color: #000066;
+
+	top: 5px;
+
+	position: relative;
+
+}
+
+.tagline1{
+	text-align:center;
+	
+	color: #CC0000;
+	
+	font-family: "Californian FB";
+
+	font-size: 30px;
+
+	font-weight: bolder;
+	
+	font-variant: small-caps;
+
+}
+
+.tagline {
+	text-align:center;
+	
+	color: #CC0000;
+	
+	font-family: "Californian FB";
+
+	font-size: 18px;
+
+	font-weight: bolder;
+
+}
+body 
+{
+	background: -webkit-linear-gradient(left, #F2F2F2 , #404040); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #F2F2F2 , #404040); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #F2F2F2 , #404040); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #F2F2F2 , #404040); /* Standard syntax */
+}
+
+body2 {
+
+	background-color: #B4B4B4;
+
+}
+
+.content {
+
+	/*background-color: white;
+
+	left: 50%;
+
+	width: 710px;
+
+	margin-left: -400px;
+
+	height: auto;
+
+	position: absolute;
+
+	padding-top: 65px;
+
+	padding-right: 45px;
+
+	padding-left: 45px;
+
+	margin-top: 125px;*/
+	background-color: white;
+
+	left: 50%;
+
+	width: 710px;
+
+	margin-left: -400px;
+
+	height: auto;
+
+	position: absolute;
+
+	padding-top: 65px;
+
+	padding-right: 45px;
+
+	padding-left: 45px;
+
+	/*margin-top: 125px;*/
+	top: 225px;
+	
+	margin-bottom: 100px;
+
+}
+
+.content2 {
+
+	background-color: white;
+
+	left: 50%;
+
+	width: 710px;
+
+	margin-left: -400px;
+
+	height: auto;
+
+	position: absolute;
+
+	padding-top: 15px;
+
+	padding-right: 25px;
+
+	padding-left: 25px;
+
+	margin-top: 25px;
+
+}
+
+a.link-address:hover {
+
+	color: blue;
+	font-weight: bold;
+
+}
+
+a.link-address{
+	color: blue;
+
+	text-decoration: underline;
+
+	font-family: "Times New Roman";
+
+	font-size: 16px;
+
+	font-variant: normal;
+
+	text-align: start;
+
+	line-height: normal;
+
+	font-weight: normal;
+
+
+}
+
+a.list {
+
+	color: Blue;
+
+	text-decoration: none;
+
+	font-family: "Californian FB";
+
+	font-size: 20px;
+
+	font-variant: small-caps;
+
+	line-height: 10px;
+
+	font-weight: bold;
+
+}
+
+a.list:hover {
+
+	color: MediumBlue;
+
+}
+
+a.buttonBar {
+
+	color: #8FBBE7;
+
+	text-decoration: none;
+
+	font-family: "Californian FB";
+
+	font-size: 20px;
+
+	font-variant: small-caps;
+
+	text-align: center;
+
+	line-height: 10px;
+
+	font-weight: bold;
+
+}
+
+a.buttonBar:hover {
+
+	color: white;
+
+}
+
+a.mail {
+
+	color: Blue;
+
+	text-decoration: none;
+
+	font-family: "Californian FB";
+
+	font-size: 17px;
+
+	font-variant: small-caps;
+
+	text-align: center;
+
+	line-height: 10px;
+
+	font-weight: bold;
+
+}
+
+a.mail:hover {
+
+	color: MediumBlue;
+
+}
+
+a.bodyTextLink {
+
+	color: Blue;
+
+	text-decoration: none;
+
+	font-weight: bold;
+
+}
+
+a.bodyTextLink:hover {
+
+	color: MediumBlue;
+
+}
+
+a.headingLink {
+
+	color: Blue;
+
+	text-decoration: none;
+
+	font-family: "Californian FB";
+
+	font-size: 17px;
+
+	font-variant: none;
+
+	text-align: center;
+
+	line-height: 10px;
+
+	font-weight: bold;
+
+}
+
+a.headingLink:hover {
+
+	color: MediumBlue;
+
+}
+
+
+.link-a {
+
+	width: 160px;
+
+	height: 40px;
+
+	position: absolute;
+
+}
+
+.link-b {
+
+	width: 160px;
+
+	height: 40px;
+
+	position: absolute;
+
+	left: 20%;
+
+}
+
+.link-c {
+
+	width: 160px;
+
+	height: 40px;
+
+	position: absolute;
+
+	margin-left: -80px;
+
+	left: 50%;
+
+}
+
+.link-d {
+
+	width: 160px;
+
+	height: 40px;
+
+	position: absolute;
+
+	right: 20%;
+
+}
+
+.link-e {
+
+	width: 160px;
+
+	height: 40px;
+
+	position: absolute;
+
+	right: 0px;
+
+}
+
+.link-a1 {
+
+	width: 200px;
+
+	height: 40px;
+
+	position: absolute;
+
+}
+
+.link-b1 {
+
+	width: 200px;
+
+	height: 40px;
+
+	position: absolute;
+
+	left: 25%;
+
+}
+
+.link-c1 {
+
+	width: 200px;
+
+	height: 40px;
+
+	position: absolute;
+
+	margin-left: -80px;
+
+	right: 25%;
+
+}
+
+.link-d1 {
+
+	width: 200px;
+
+	height: 40px;
+
+	position: absolute;
+
+	right: 0px;
+
+}
+
+.text {
+
+	font-family: "Californian FB";
+
+	font-size: 17px;
+
+	color: black;
+
+	text-align:justify;
+
+}
+
+.subheader {
+
+	font-family: "Californian FB";
+
+	font-size: 21px;
+
+	font-weight: bolder;
+
+	color: black;
+
+}
+
+.snapshot {
+
+	float: left;
+
+	margin-right: 15px;
+
+}
+
+.snapshot2 {
+
+	margin-left: 15px;
+
+}
+
+#dvbtns {
+
+	margin: 20px; 
+	float: right; 
+	width: 30%;
+	height:30%;
+	
+}
+
+#dvbtns2 {
+
+	margin: 20px; 
+	float: right; 
+	width: 50%;
+	height: 50%;
+	
+	/*General*/
+	transform: scale(0.5, 0.5);
+	/*Firefox*/
+	-moz-transform: scale(0.5, 0.5);
+	/*Microsoft Internet Explorer*/
+	-ms-transform: scale(0.5, 0.5);
+	/*Chrome, Safari*/
+	-webkit-transform: scale(0.5, 0.5);
+	/*Opera*/
+	-o-transform: scale(0.5, 0.5);
+}
+
+.dvbtns3 {
+
+	background: -webkit-linear-gradient(left, LightBlue , #eeeeee); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, LightBlue , #eeeeee); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, LightBlue , #eeeeee); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, LightBlue , #eeeeee); /* Standard syntax */
+
+}
+
+.softedge {
+-moz-box-shadow:0px 0px 7px #000000;
+-webkit-box-shadow:0px 0px 7px #000000;
+box-shadow:0px 0px 7px #000000;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px; 
+}
+
+.softedge2 {
+-moz-box-shadow:0px 0px 7px rgba(0,0,0,0.5);
+-webkit-box-shadow:0px 0px 7px rgba(0,0,0,0.5);
+box-shadow:0px 0px 7px rgba(0,0,0,0.2);
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px; 
+}
